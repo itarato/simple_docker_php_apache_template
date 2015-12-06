@@ -1,5 +1,5 @@
 web:
-    build: images/cw_docker_php_apache
+    build: images/docker_php_apache
     volumes:
         - ./src:/var/www/html
     ports:
