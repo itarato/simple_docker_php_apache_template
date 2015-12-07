@@ -1,7 +1,7 @@
 web:
     build: images/docker_php_apache
     volumes:
-        - ./src:/var/www/html
+        - ../src:/var/www/html
     ports:
         - "80:80"
     links:
